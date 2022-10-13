@@ -52,10 +52,7 @@ class App(tk.Tk):
     def button_clicked(self):
         showinfo(title='Книга рецептов', message='Приветствую!')
 
-if __name__ == "__main__":
-  app = App()
-  app.MainMenu()
-  app.mainloop()
+
 
 
 
