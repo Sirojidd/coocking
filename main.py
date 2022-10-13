@@ -1,5 +1,6 @@
-from wifrowanie.Blyuda.interface import  App as ap
+from Blyuda.interface import  App
 
-if __name__ == '__main__':
-    app = ap
-    app.mainloop()
+if __name__ == "__main__":
+  app = App()
+  app.MainMenu()
+  app.mainloop()
